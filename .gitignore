@@ -1,5 +1,7 @@
-data/
-checkpoints/
+data/*
+!data/.gitkeep
+checkpoints/*
+!checkpoints/.gitkeep
 *.pt
 *.mp4
 *.avi
@@ -13,7 +15,3 @@ venv/
 
 # archives
 detecto-repo.zip
-
-# keep placeholder dirs tracked
-!data/.gitkeep
-!checkpoints/.gitkeep
