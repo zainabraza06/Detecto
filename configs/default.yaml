@@ -1,0 +1,17 @@
+data:
+  scvd_dir: data/SCVD_converted
+  train_split_csv: data/detecto_train_split.csv
+  val_split_csv: data/detecto_val_split.csv
+  num_frames: 12
+  frame_size: 112
+
+training:
+  epochs: 20
+  batch_size: 8
+  lr: 0.001
+  momentum: 0.9
+  seed: 42
+
+output:
+  checkpoint_dir: checkpoints/
+  checkpoint_name: detecto_multihead.pt
